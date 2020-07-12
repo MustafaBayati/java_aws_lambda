@@ -15,9 +15,13 @@ You can have multi tasks related to the same service, like users, all can be in 
 What you need to run spring boot handler and API's:
 
 application.properties: spring.main.allow-bean-definition-overriding=true
+
 dependency: com.amazonaws.serverless
+
 StreamLambdaHandler.java: here where lambda start your java code.
+
 Define the basePackages: where you will have the API's methods/mapping.
+
 
 
 More to know about :
